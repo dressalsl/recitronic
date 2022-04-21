@@ -10,6 +10,11 @@ class UserService{
         return result;
     }
 
+    async getAll(){
+        const users = await Person.find();
+        return users
+    }
+
 }
 
 

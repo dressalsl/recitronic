@@ -7,7 +7,7 @@ router.post('/create', async (req,res) =>{
 
     const {email,name,password} = req.body
     const person = {
-        name,email,password
+        name,email,password,active:true
     }
     if(!email){
         res.status(422).json({error:'Email obrigatório'});
@@ -28,7 +28,7 @@ router.get('/getAll', async (req,res)=>{
 
     try {
 
-        const users = await Person.find();
+        var users = await userService.getAll();
         res.status(200).json({users});
         
     } catch (error) {

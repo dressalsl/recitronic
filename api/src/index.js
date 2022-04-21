@@ -9,13 +9,13 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 app.get('/ping', (req,res) => {
-    res.json({result: 'Pong'});
+    res.json({result: 'Poongg'});
 });
 
 const  userController = require('./controllers/userController');
-const collectionPointsController = require('./controllers/collectionPointsController');
+const collectionPointController = require('./controllers/collectionPointController');
 
-app.use('collectionPoints', collectionPointsController);
+app.use('/collectionPoint', collectionPointController);
 app.use('/user', userController);
 
 console.log("Api Online !");

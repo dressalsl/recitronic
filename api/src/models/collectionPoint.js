@@ -1,14 +1,15 @@
 const mongoose = require('mongoose');
 
 
-const User = mongoose.model('User',{
+const CollectionPoint = mongoose.model('CollectionPoints',{
 
     active:Boolean,
     email: String,
     name: String,
-    password: String,
+
+
 
 
 });
 
-module.exports = User
+module.exports = CollectionPoint
