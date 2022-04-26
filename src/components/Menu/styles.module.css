@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a img {
+    width: 18px;
+    height: 18px;
+}
+
+.navList {
+    display: flex;
+    
+}
+
+.navItem {
+    margin: 0 15px;
+}
+.navItem a {
+    color: #fff;
+    padding: 6px 0;
+    position: relative;
+}
+
+.navItem a::after {
+    background-color: #fff;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 100%;
+}
+
+.navItem.is-located a::after,
+.navItem a:hover::after {
+    transform: scaleX(1);
+}

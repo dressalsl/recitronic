@@ -1,5 +1,6 @@
 import styles from './styles.module.css';
 import Logo from '../../assets/logo.png';
+import Menu from '../Menu/Menu.js';
 
 function Header() {
     return (
@@ -9,6 +10,7 @@ function Header() {
                     <img src={Logo} alt="Logo Recitronic" />
                     <span>recitronic</span>
                 </div>
+                <Menu />
             </div>
         </div>
     )
