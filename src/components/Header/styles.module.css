@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+
+.header {
+    width: 100%;
+    background: #BF4E30;
+}
+
+
+.headerContent {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #BF4E30;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Text Me One', sans-serif;
+    color: #fff;
+    font-size: 54px;
+    letter-spacing: 1px;
+}
