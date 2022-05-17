@@ -1,6 +1,7 @@
 import styles from './styles.module.css';
 import Logo from '../../assets/logo.png';
 import Menu from '../Menu/Menu.js';
+import Profile from '../Profile/Profile.js';
 
 function Header() {
     return (
@@ -11,6 +12,7 @@ function Header() {
                     <span>recitronic</span>
                 </div>
                 <Menu />
+                <Profile />
             </div>
         </div>
     )

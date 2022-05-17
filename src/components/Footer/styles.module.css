@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+
+.footer {
+    width: 100%;
+    background: #BF4E30;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.footer p {
+    color: #fff;
+    font-family: 'Text Me One', sans-serif;
+}
