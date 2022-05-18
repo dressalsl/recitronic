@@ -1,12 +1,51 @@
 .content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     max-width: 1120px;
     margin: 0 auto;
     padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .slider {
     width: 65%;
+}
+
+.view {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.view span {
+    background: #E48167;
+    color: #fff;
+    padding: 5px 57px 5px 57px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.view p {
+    background: rgba(228, 129, 103, 0.15);
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid #E48167;
+}
+
+.view hr {
+    border: 15px solid #f2f0f5;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons > img {
+    margin-bottom: 4rem;
 }

@@ -16,11 +16,11 @@ class DemoCarousel extends Component {
                 </div>
                 <div>
                     <img src={Img2} alt="" />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend">Dúvidas sobre o cumprimento da Política Nacional de Resíduos Sólidos? Convidamos uma especialista para explicar tudo sobre o assunto.</p>
                 </div>
                 <div>
                     <img src={Img3} alt="" />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">De todas as montanhas de lixo geradas no mundo, a dos eletroeletrônicos é a que cresce mais rápido: são 53 milhões de toneladas por ano. Teoricamente, tudo poderia ser reciclado.</p>
                 </div>
             </Carousel>
         );
