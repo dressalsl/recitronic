@@ -27,7 +27,7 @@ class CollectionPointsService{
     }
 
     async getByEmail(email){
-        const collectionPoint = await CollectionPoint.findOne({email:email});
+        const collectionPoint = await CollectionPoint.findOne({email:email}).exec();
         return collectionPoint
     }
 
