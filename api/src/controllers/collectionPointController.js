@@ -84,4 +84,12 @@ router.get("/delete/:id", async (req, res) => {
   }
 });
 
+router.get("/getByDistrict/:district", async function (request, response) {
+  const district = request.params.district;
+
+  const collectionPoint = await collectionPointService.getByDistrict(district);
+
+  response.json({ pontos: collectionPoint });
+});
+
 module.exports = router;
