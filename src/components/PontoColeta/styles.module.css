@@ -1,0 +1,53 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.searchBox  {
+    border-color: #E48167;
+    width: 45%;
+}
+
+.buttonFilter {
+    background-color: #38BF4C;
+    margin-right: 10px;
+}
+.buttonFilter :hover{
+    background-color: #2ba03d !important ;
+}
+
+.pontoColeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.tituloPontoColeta {
+    color: #E48167;
+    font-weight: 200;
+    flex-direction: column;
+}
+
+.cardPontos{
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    width: 20%;
+    margin: 0 4% !important;
+    
+}
+
+.card img {
+    justify-content: center;
+}

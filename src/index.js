@@ -11,7 +11,6 @@ root.render(
     <AllRoutes>
       <App/>
     </AllRoutes>
-    
   </React.StrictMode>
 );
 

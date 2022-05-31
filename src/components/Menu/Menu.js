@@ -8,7 +8,7 @@ function Menu() {
     return (
         <nav className={styles.nav}>
             <ul className={styles.navList}>
-                <li className={styles.navItem}><a href="#">INÍCIO</a></li>
+                <li className={styles.navItem}><a href="/">INÍCIO</a></li>
                 <li className={styles.navItem}><a href="ponto-coleta">PONTOS DE COLETA</a></li>
                 <li className={styles.navItem}><a href="#">ANÚNCIOS</a></li>
                 <li className={styles.navItem}><a href="#">FAQ</a></li>
