@@ -20,9 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
 }
 
@@ -32,17 +30,39 @@
     flex-direction: column;
 }
 
+
 .cardPontos{
+   
     flex-direction: column;
+    display: inline-block;
+   
+    margin-bottom: 20%;
 }
 
+
 .card{
+    
+    text-align: justify;
     display: flex;
-    width: 20%;
+   
     margin: 0 4% !important;
     
+}
+.text{
+    position: absolute;
+    padding-left: 60%;
+    font-size: 70%;
+
+   
+   }
+.desc{
+    position: absolute;
+    margin-top: -10%;
+    padding-left: 62%;
+    text-align: justify;
 }
 
 .card img {
     justify-content: center;
+    margin-right: 50%;
 }
