@@ -11,7 +11,7 @@ function Menu() {
                 <li className={styles.navItem}><a href="/">INÍCIO</a></li>
                 <li className={styles.navItem}><a href="ponto-coleta">PONTOS DE COLETA</a></li>
                 <li className={styles.navItem}><a href="#">ANÚNCIOS</a></li>
-                <li className={styles.navItem}><a href="#">FAQ</a></li>
+                <li className={styles.navItem}><a href="Faq">FAQ</a></li>
                 <li className={styles.navItem}><a href="#"><img src={Wizard} /></a></li>
                 <li className={styles.navItem}><a href="#"><img src={Ranking} /></a></li>
                 <li className={styles.navItem}><a href="#"><img src={Message} /></a></li>

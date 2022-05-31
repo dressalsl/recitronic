@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
 
 footer {
+    text-align: center;
     background: #BF4E30;
     padding: 1rem;
 }

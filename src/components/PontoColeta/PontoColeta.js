@@ -8,23 +8,16 @@ import Reecicle from '../../assets/reecicle-iputinga.png';
 import Fundaj from '../../assets/fundaj.png'
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import EcoRecife from '../../assets/eco-recife.png'
+import Pesquisa from '../../assets/pesquisa.png'
 
 
 function PontoColeta() {
     return (
         <>
             <Header />
-            <div className={styles.search}>
-                <Button variant="contained" className={styles.buttonFilter}>Filtro</Button>
-                <TextField
-                    id="outlined-basic"
-                    label="Pesquisar"
-                    type="search"
-                    className={styles.searchBox}
-                    >
-                     
-                    
-                </TextField>
+            <div >
+                <input type="text" className={styles.search} placeholder="Faça uma busca pelo ponto de coleta mais próximo de você!"/>
+                <img src={Pesquisa} className={styles.buttonFilter} alt="Buscar"/>
             </div>
             <div className={styles.pontoColeta}>
                 <h1 className={styles.tituloPontoColeta}>Pontos de Coleta</h1>
