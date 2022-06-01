@@ -1,5 +1,5 @@
 ### Pré-requisitos
-você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+você vai precisar ter instalado em sua máquina:
 Node.js (v14.15.4)
 
 
